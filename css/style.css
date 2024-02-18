@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;600&display=swap');
 
-body{
+body {
     font-family: 'Inter', sans-serif;
-    background-color: rgb(25,25,25);
+    background-color: rgb(25, 25, 25);
     color: white;
     margin: 0px;
 }
@@ -30,7 +30,7 @@ body{
     position: relative;
 }
 
-.menu img{
+.menu img {
     width: 45px;
     height: 45px;
     border-radius: 12px;
@@ -40,18 +40,19 @@ body{
     justify-content: left;
     display: flex;
 }
-.menu img:hover{
+
+.menu img:hover {
     background-color: #363636;
 }
 
 .menu {
     display: flex;
-    list-style:none;
+    list-style: none;
     justify-content: center;
-    
+
 }
 
-.menu a{
+.menu a {
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
     text-decoration: none;
@@ -61,34 +62,38 @@ body{
     padding: 5px 16px;
     margin: 5px 10px;
     border-radius: 16px;
-    
+
 }
-.menu a:hover{
+
+.menu a:hover {
     background-color: #363636;
 }
 
 .kys {
     margin: auto;
     display: flex;
-    list-style:none;
+    list-style: none;
     text-align: center;
     width: 1200px;
     padding: 10px 35px;
     margin-bottom: 50px;
 }
-.kys div{
+
+.kys div {
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgba(83,208,173,0.10);
-    border: 2px solid rgb(83,208,173);
+    background-color: rgba(83, 208, 173, 0.10);
+    border: 2px solid rgb(83, 208, 173);
     border-radius: 32px;
     padding: 25px 0px;
     transition: 0.5s;
-    
+
 }
-.kys div:hover{
+
+.kys div:hover {
     transform: scale(1.075);
 }
+
 .kys a {
     color: white;
     text-decoration: none;
@@ -103,14 +108,15 @@ body{
     margin: 0px 15px;
     border: 2px solid rgb(124, 124, 124);
 }
+
 .kys a:hover {
     background-color: white;
     border: 2px solid white;
     color: black;
 }
 
-.kys>div>img{
-    background-color: rgba(83,208,173,0.10);
+.kys>div>img {
+    background-color: rgba(83, 208, 173, 0.10);
     width: 50px;
     height: 50px;
     border: 2px solid #53d0ad;
@@ -121,6 +127,7 @@ body{
 .kys>div>h1 {
     font-size: 24px;
 }
+
 .kys>div>p {
     font-size: 16px;
     margin: 15px 10px;
@@ -130,6 +137,7 @@ body{
     background-color: rgba(208, 83, 83, 0.1);
     border: 2px solid rgb(208, 83, 83);
 }
+
 .kys>.red>img {
     background-color: rgba(208, 83, 83, 0.1);
     border: 2px solid rgb(208, 83, 83);
@@ -139,6 +147,7 @@ body{
     background-color: rgba(193, 83, 208, 0.1);
     border: 2px solid rgb(193, 83, 208);
 }
+
 .kys>.purple>img {
     background-color: rgba(193, 83, 208, 0.1);
     border: 2px solid rgb(193, 83, 208);
@@ -148,6 +157,7 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid rgb(255, 255, 255);
 }
+
 .kys>.white>img {
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid rgb(255, 255, 255);
@@ -157,6 +167,7 @@ body{
     background-color: rgba(83, 133, 208, 0.1);
     border: 2px solid rgb(83, 133, 208);
 }
+
 .kys>.blue>img {
     background-color: rgba(83, 133, 208, 0.1);
     border: 2px solid rgb(83, 133, 208);
@@ -166,37 +177,41 @@ body{
     background-color: rgba(70, 70, 70, 0.1);
     border: 2px solid rgb(70, 70, 70);
 }
+
 .kys>.gray>img {
     background-color: rgba(70, 70, 70, 0.1);
     border: 2px solid rgb(70, 70, 70);
 }
 
 
-.container>img{
+.container>img {
     width: 50px;
     height: 50px;
     border-radius: 16px;
     padding: 10px;
 }
-.container>img{
-    background-color: rgba(83,208,173,0.10);
+
+.container>img {
+    background-color: rgba(83, 208, 173, 0.10);
     width: 50px;
     height: 50px;
     border: 2px solid #53d0ad;
     padding: 10px;
     border-radius: 16px;
 }
-.container{
+
+.container {
     width: 1200px;
     margin: 50px auto;
     justify-content: center;
     text-align: center;
-    background-color: rgba(83,208,173,0.10);
+    background-color: rgba(83, 208, 173, 0.10);
     border: 2px solid #53d0ad;
     border-radius: 32px;
     padding: 15px 0px;
     transition: 0.5s;
 }
+
 .container:hover {
     transform: scale(1.05);
 }
@@ -214,6 +229,7 @@ body{
     margin: 0px 10px;
     border: 2px solid #53d0ad;
 }
+
 .container a:hover {
     background-color: white;
     border: 2px solid white;
@@ -224,14 +240,17 @@ body{
     background-color: rgba(208, 83, 83, 0.1);
     border: 2px solid rgb(208, 83, 83);
 }
+
 .red>img {
     background-color: rgba(208, 83, 83, 0.1);
     border: 2px solid rgb(208, 83, 83);
 }
+
 .red>h1 {
     color: rgb(208, 83, 83);
 }
-.red a{
+
+.red a {
     background-color: rgb(208, 83, 83);
     border: 2px solid rgb(255, 112, 112);
 }
@@ -241,14 +260,17 @@ body{
     background-color: rgba(193, 83, 208, 0.1);
     border: 2px solid rgb(193, 83, 208);
 }
+
 .purple>img {
     background-color: rgba(193, 83, 208, 0.1);
     border: 2px solid rgb(193, 83, 208);
 }
+
 .purple>h1 {
     color: rgb(193, 83, 208);
 }
-.purple a{
+
+.purple a {
     background-color: rgb(193, 83, 208);
     border: 2px solid rgb(234, 100, 251);
 }
@@ -257,14 +279,17 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid rgb(255, 255, 255);
 }
+
 .white>img {
     background-color: rgba(193, 83, 208, 0.1);
     border: 2px solid rgb(255, 255, 255);
 }
+
 .white>h1 {
     color: rgb(255, 255, 255);
 }
-.white a{
+
+.white a {
     background-color: rgb(122, 122, 122);
     border: 2px solid rgb(255, 255, 255);
 }
@@ -274,14 +299,17 @@ body{
     background-color: rgba(83, 133, 208, 0.1);
     border: 2px solid rgb(83, 133, 208);
 }
+
 .blue>img {
     background-color: rgba(83, 133, 208, 0.1);
     border: 2px solid rgb(83, 133, 208);
 }
+
 .blue>h1 {
     color: rgb(83, 133, 208);
 }
-.blue a{
+
+.blue a {
     background-color: rgb(83, 133, 208);
     border: 2px solid rgb(102, 163, 255);
 }
@@ -290,13 +318,16 @@ body{
     background-color: rgba(70, 70, 70, 0.1);
     border: 2px solid rgb(70, 70, 70);
 }
+
 .gray>img {
     background-color: rgba(70, 70, 70, 0.1);
     border: 2px solid rgb(70, 70, 70);
 }
+
 .gray>h1 {
     color: rgb(100, 100, 100);
 }
+
 .gray>a {
     background-color: rgb(100, 100, 100);
 }
@@ -306,6 +337,7 @@ body{
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
 }
+
 .picanim {
     animation-name: pic;
     animation-duration: 0.5s;
@@ -321,6 +353,7 @@ body{
     animation-play-state: running;
     animation-iteration-count: infinite;
 }
+
 .clrz {
     animation-name: clrz;
     animation-duration: 2.5s;
@@ -328,25 +361,29 @@ body{
     animation-play-state: running;
     animation-iteration-count: infinite;
 }
+
 .container>audio::-webkit-media-controls-panel {
     background-color: #5be6be;
 }
-@keyframes colorchangeback {
-    0% {
 
-    }
+@keyframes colorchangeback {
+    0% {}
+
     20% {
         background-color: rgba(208, 83, 83, 0.1);
         border: 2px solid rgb(208, 83, 83);
     }
+
     40% {
         background-color: rgba(83, 133, 208, 0.1);
         border: 2px solid rgb(83, 133, 208);
     }
+
     60% {
         background-color: rgba(193, 83, 208, 0.1);
         border: 2px solid rgb(193, 83, 208);
     }
+
     80% {
         background-color: rgba(70, 70, 70, 0.1);
         border: 2px solid rgb(70, 70, 70);
@@ -354,48 +391,53 @@ body{
 }
 
 @keyframes colorchangebackforbutton {
-    0% {
-    }
+    0% {}
+
     25% {
-        border: 2px solid rgb(255, 100, 100); 
+        border: 2px solid rgb(255, 100, 100);
         background-color: rgb(208, 83, 83);
     }
+
     50% {
-        border: 2px solid rgb(98, 152, 240); 
+        border: 2px solid rgb(98, 152, 240);
         background-color: rgb(83, 133, 208);
     }
+
     75% {
-        border: 2px solid #5be6be; 
+        border: 2px solid #5be6be;
         background-color: #42aa8d;
     }
 }
 
 @keyframes clrz {
-    0% {
+    0% {}
 
-    }
     20% {
         background-color: rgba(208, 83, 83, 0.1);
         border: 2px solid rgb(208, 83, 83);
     }
+
     40% {
         background-color: rgba(83, 133, 208, 0.1);
         border: 2px solid rgb(83, 133, 208);
     }
+
     60% {
         background-color: rgba(193, 83, 208, 0.1);
         border: 2px solid rgb(193, 83, 208);
     }
+
     80% {
         background-color: rgba(70, 70, 70, 0.1);
         border: 2px solid rgb(70, 70, 70);
     }
+
     100% {
         transform: rotate(180deg);
     }
 }
 
-.limboba a{ 
+.limboba a {
     margin: 10px 450px;
     transition: 0.2s;
 }
@@ -403,23 +445,24 @@ body{
 .textvidelka {
     color: #53d0ad;
 }
+
 .noselect {
-    -webkit-touch-callout: none; 
-      -webkit-user-select: none; 
-       -khtml-user-select: none; 
-         -moz-user-select: none; 
-          -ms-user-select: none; 
-              user-select: none; 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-@media screen and (max-width: 520px) and (min-width: 320px) { 
-    body{
+@media screen and (max-width: 520px) and (min-width: 320px) {
+    body {
         font-family: 'Manrope', sans-serif;
-        background-color: rgb(25,25,25);
+        background-color: rgb(25, 25, 25);
         color: white;
         margin: 0px;
     }
-    
+
     .header {
         border: 2px solid rgb(53, 53, 53);
         margin-top: 5px;
@@ -433,12 +476,14 @@ body{
         position: relative;
 
     }
+
     .menu {
         display: flex;
-        list-style:none;
-        
+        list-style: none;
+
     }
-    .menu a{
+
+    .menu a {
         font-family: 'Manrope', sans-serif;
         font-weight: 600;
         text-decoration: none;
@@ -446,9 +491,10 @@ body{
         font-size: 18px;
         transition: 0.25s;
         padding: 8px 15px;
-        
+
     }
-    .container{
+
+    .container {
         width: 320px;
         margin: auto;
         justify-content: center;
@@ -456,18 +502,22 @@ body{
         margin-top: 100px;
         margin-bottom: 100px;
     }
+
     .container p {
         font-size: 18px;
     }
+
     .container h1 {
         font-size: 28px;
     }
+
     .container a {
         margin: 0px 15px;
     }
-    .container>img{
+
+    .container>img {
         width: 40px;
         height: 40px;
         border-radius: 16px;
-}
+    }
 }
