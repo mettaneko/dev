@@ -469,7 +469,7 @@ body {
 }
 
 .limboba a {
-    margin: 10px 450px;
+    margin: 15px 450px;
     transition: 0.2s;
 }
 
@@ -541,6 +541,8 @@ body {
 
     .container p {
         font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .container h1 {
@@ -555,5 +557,8 @@ body {
         width: 40px;
         height: 40px;
         border-radius: 16px;
+    }
+    .limboba a {
+        margin: 15px;
     }
 }
