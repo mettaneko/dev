@@ -78,7 +78,7 @@
         <a href="en">English</a>
         <a href="et">Eesti</a>
     </div> -->
-    <footer class="footer">
+    <footer class="footer" id="foot">
         <p>Копирайт © mettaneko 2023-2025. Бла бла бла все права защищены xddd. Версия сайта: 1.21-IHMN</p>
     </footer> 
     <script>
@@ -90,6 +90,8 @@
 
         if (screenWidth <= 520) {
             parent.removeChild(document.getElementById("plus"))
+            parent.removeChild(document.getElementById("head"))
+            parent.removeChild(document.getElementById("foot"))
         }
         if (screenWidth > 520) {
             parent.removeChild(document.getElementById("plus-mobile"))
